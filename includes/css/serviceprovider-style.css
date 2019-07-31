@@ -1,0 +1,30 @@
+.navbar .navbar-brand{
+	font-size: 32px;
+}
+a{
+	color: #61ce70;
+}
+
+.fade.show{
+	background-color: rgba(0,0,0,0.75);
+}
+.modal-header, .modal-footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-check, label{
+	font-size: 12px;
+	font-weight: 100;
+	color: black;	
+}
+.modal-footer button{
+	font-size: 16px;
+}
+.form-control, .is-focused .form-control{
+	background-image: linear-gradient(to top, #61ce70 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+.form-check .form-check-input:checked+.form-check-sign .check{
+	background-color: #61ce70;
+}
